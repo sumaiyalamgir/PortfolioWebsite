@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+            <a href="#home">
+                <img src="assets/logo.jpg" alt="Logo">
+            </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="assets/documents/cv.pdf" class="download-cv" download="Sumaiya_Alamgir_CV.pdf" id="downloadCV">DOWNLOAD CV</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>HELLO I'M</h3>
+            <h1>SUMAIYA ALAMGIR</h1>
+            <p>A PASSIONATE <span class="typed-text"></span></p>
+            <a href="#contact" class="cta-button">SAY HELLO</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/profile.png" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>ABOUT ME</h2>
+            <h1>I AM A STUDENT</h1>
+            <p>I am a dedicated software engineering student with a strong interest in cybersecurity. My academic achievements reflect my commitment to excellence, and I'm eager to apply my technical skills to the evolving field of secure software development.</p>
+            
+            <div class="personal-info">
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="label">Name</span>
+                        <span class="value">Sumaiya Alamgir</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Phone</span>
+                        <span class="value">016408219**</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Age</span>
+                        <span class="value">22</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Email</span>
+                        <span class="value">assumaiya99@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Occupation</span>
+                        <span class="value">Student</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Hobby</span>
+                        <span class="value">Bird keeping</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="assets/about.png" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>EDUCATION</h2>
+        <h1>MY EDUCATION</h1>
+        <div class="education-container">
+            <div class="education-items">
+                <div class="education-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Secondary School Certificate</h3>
+                    <p class="institution">Sristy Academic School,Tangail</p>
+                    <p class="year">(2017 - 2019)</p>
+                    <p class="GPA">GPA-5.00</p>
+                </div>
+                <div class="education-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Higher Secondary Certificate</h3>
+                    <p class="institution">Kumudini Govt. College,Tangail</p>
+                    <p class="year">(2019 - 2021)</p>
+                    <p class="GPA">GPA-5.00</p>
+                </div>
+                <div class="education-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Bachelor of Science in Software Engineering</h3>
+                    <p class="institution">Daffodil International University</p>
+                    <p class="year">(2022 - 2026)</p>
+                    <p class="description">I have maintained a CGPA of 3.9 out of 4.00 in my academic journey.</p>
+                </div>
+                <!-- Add more education items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="projects">
+        <h2>PROJECTS</h2>
+        <h1>MY PROJECTS</h1>
+        <div class="projects-container">
+            <button class="project-nav prev-project" aria-label="Previous project">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="project-carousel">
+                <!-- Project content will be dynamically inserted here -->
+            </div>
+            <button class="project-nav next-project" aria-label="Next project">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="project-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> assumaiya99@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 016408219**</p>
+                <p><i class="fas fa-map-marker-alt"></i> Tangail, Bangladesh</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-section" id="contact">
+                <h3>Social Media</h3>
+                <div class="social-links">
+                    <a href="https://github.com/sumaiyalamgir" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sumaiyaalamgir0342002/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sumaiya Alamgir. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
